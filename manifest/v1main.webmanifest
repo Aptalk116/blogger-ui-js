@@ -4,8 +4,8 @@
   "description": "Install Now Krishna Bani - Learn Something New Official web App.",
   "display": "standalone",
   "prefer_related_applications": false,
-  "start_url": "/?utm_source=homescreen",
-  "scope": "/",
+  "start_url": "https://customthemeno5722.blogspot.com/?utm_source=homescreen",
+  "scope": "https://customthemeno5722.blogspot.com/",
   "background_color": "#eee",
   "theme_color": "#04aa6d",
   "icons": [
