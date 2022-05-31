@@ -1,0 +1,48 @@
+{
+  "name": "Krishna Bani lite",
+  "short_name": "Krishna Bani",
+  "description": "Install Now Krishna Bani - Learn Something New Official web App.",
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
+  "background_color": "#eee",
+  "theme_color": "#04aa6d",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlD7O_2kTBqK00GAolwsNuxE2LLzwv28xzjgj5bE3nchko0NoBwH4l9pG84B6ZtJxFkkC-3fyeTDK8cVrVHZTDIzpNKNugioPllr-wdkCxfyeQaU6qll4xbeq7U7Y2_12bPms5qhBNIQ8jPM_HzrLTlkRLMDlUbV1MHMruipJM8DeSyVxdoMd_NlLr/s320/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw7vtp1kMCLHzDSV6fNbainKxw4q1C9LZUSGZhHCOUy4I3pxLo9G8yc8f2p7LNUsHOxUGK4qcruHYbGvsv-c0TBEdi7SQIda0u8JK3zTeJenNf8pClA1VSiek74b-wUhJME3joy7ji7twOC5C6fpyNCrk93u4_aKS65VxNTw8sABEEeUDz4PGQD9uZ/s320/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3ZFSVJqWdAVOjWAaRSyApSFA8iQkdbOaYY_lg1fIV8RXqOi0B-AiaXCHrMHXh-0vByU_injJPUeKLhsTMNtYhw0wgOSiKqWs7Pa79gdmVfzSODmKI0SaiAHgzbxQQJkJwRo5ZDzdJyoM9xWxP8JwD2UK069H5m_2y43ojYEh2_YzOwlQjCLWWDUkN/s320/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "density": "3.75",
+      "purpose": "any maskable"
+    },
+    {
+      "src":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYgmjOwOPFsls00Gf9VAMESAYcX75YdxE834IseWJdGjmweAMhJZjauFOOJtDRGQvXjCs1C2mIqFsSlT_7Z58MxPqRO-wMki9n9gCPZA9fKlmIWvz4_cOSrKTFLffIHD-Fj7lbDY2cJpmUaLtBF-7NgFnA7WD7jiI6nIm3fpwuB68Bp_jAHO8Sq0aS/s320/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "density": "0.66",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvFpDuiE7qzfO31-3YwfBYLW7sq9sK7opcnSyMpMF5bitymh2srxoWiMRtdsFT2GVpW3PQ5IYgdxQl33ciAr8aK9o-uFWAG0wiwHlFJwKs5SZjtV70yAlhI1KMApjmPJeCYXLdwTAzTJP52wvGCgOCnpjze8TbXPRsFyaso5Jfjk9A2Zlbn26mU2pq/s320/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "density": "0.33",
+      "purpose": "any maskable"
+    }
+  ],
+}
