@@ -110,7 +110,7 @@ footer a{
   .links{
     background-color: #333
   }
-  footer a{
+  footer a, .copy-area {
     color: #eee
   }
 }
