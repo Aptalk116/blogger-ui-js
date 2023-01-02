@@ -3,7 +3,8 @@
 body {
   font-size: 12pt;
   font-family: 'Open Sans', sans-serif;
-  transition: 1s
+  transition: 1s;
+  background-color: lightblue;
 }
 
 section {
@@ -26,31 +27,36 @@ a {
 
 .img {
   border-radius: 50%;
-  width: 20%;
+  width: 10%;
   box-shadow: 0 0 20px rgb(0, 0, 0, .5);
 }
 
-.id i{
+.id i {
   color: #1BABFF;
   font-size: .9rem;
   line-height: baseline;
 }
 
 .links {
-  background-color: #eee;
-  padding: 10px 0;
+  /*
+  background-color: #eee;*/
+  padding: 10px 200px;
+  margin: 0 100px;
   transition: 1s;
-  border-radius: 15px ;
-  box-shadow: 0 3px 20px rgb(0,0,0,.15);
+  border-radius: 15px;
+  box-shadow: 0 3px 20px rgb(0, 0, 0, .15);
+  backdrop-filter: blur(7px);
+  background-size: cover;
 }
 
 .links-area {
   padding: 10px 0;
   margin: 15px 0;
+  border-radius: 10px 0 10px 0;
 }
 
 .links-area:hover {
-  box-shadow: 0 7px 20px rgb(0,0,0,.5);
+  box-shadow: 0 7px 20px rgb(0, 0, 0, .5);
 }
 
 .fb {
@@ -59,7 +65,7 @@ a {
 
 .fbm {
   background: radial-gradient(circle farthest-corner at 25% 98%, #0078ff 5%, #4b69ff 25%, #af37f0 55%, #ff557d 78%, #fa696e 83%);
-    /*
+  /*
   linear-gradient(0deg, rgba(0, 120, 255, 1) 15%, rgba(0, 198, 255, 1) 90%
   ); old color code */
 }
@@ -72,46 +78,60 @@ a {
   background-color: #1da1f2;
 }
 
-.yt{
+.yt {
   background-color: #ff0000;
 }
 
-.in{
+.in {
   background-color: #0a66c2;
 }
 
-.pin{
+.pin {
   background-color: #bd081c;
 }
 
-.web{
+.web {
   background-color: #04aa6d;
 }
 
-footer{
+footer {
   text-align: center;
 }
-footer a{
-  color: black 
+
+footer a {
+  color: black
 }
-.copy-area{
+
+.copy-area {
   padding: 30px 0;
 }
 
 
-
-@media (prefers-color-scheme: dark) {
-  body{
-    background-color: #2b2b2b;
-  }
-  h3{
-    color: #eee
-  }
+@media only screen and (max-width: 786px) {
   .links{
-    background-color: #333
+    padding: 10px;
+    margin: 0 30px;
   }
-  .copy-area span, .copy-area span a{
-    color: #eee
+  .img{
+    width: 20%;
   }
 }
 
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2b2b2b;
+  }
+
+  h3 {
+    color: #eee
+  }
+
+  .links {
+    background-color: #333
+  }
+
+  footer a {
+    color: #eee
+  }
+}
